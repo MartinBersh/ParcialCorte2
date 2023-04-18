@@ -7,13 +7,14 @@ public class Local {
         private String categoria;
         private String horario;
 
-    public Local(int id, String nombreLocal, String direccion) {
+    public Local(int id, String nombreLocal, String categoria, String horario) {
         this.id = id;
         this.nombreLocal = nombreLocal;
-        this.categoria = direccion;
+        this.categoria = categoria;
+        this.horario = horario;
     }
 
-        public int getId() {
+    public int getId() {
         return id;
     }
 
